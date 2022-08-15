@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background: url('https://images.unsplash.com/photo-1660227868332-93e0a0a8c67e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80') no-repeat ;
+    background-size: cover;
+    
+    
+}
+#greeter{
+    margin-top: 7em;
+}
+fieldset{
+    margin: 2em 0;
+    padding: 1em 2em;
+    border: solid 1px #ccc;
+    border-radius: 6px;
+    min-width: 200px;
+    background-color: #fff;
+
+}
+legend{
+    font-size: 1.25em;
+    padding: 0 .25em;
+    color: black;
+    
+}
+/* label{
+    display: block;
+    margin-top: 1em;
+} */
+.checks label{
+    margin-top: 0;
+}
+label:first-of-type{
+    margin-top: 0;
+}
+input{
+    padding: .5em;
+    border: solid 1px #999;
+}
+
+input[type=submit]{
+    padding: .5em 1em;
+    border-radius: 6px;
+    background-color: #333;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-family: .8em;
+    width: 16em;
+    margin: 1em 22em;
+}
+#age{
+    margin-bottom: 1em;
+}
+
+.change{
+    padding: 5px;
+    width: 30px;
+}
+#reset{
+    margin: 5px 0;
+    padding: 1px
+}
+#totalClicks{
+    width: 8em;
+}
+#labelFname{
+    margin-right: 35px;
+}
+#age{
+    margin-right: 45px;
+}
+#select{
+    margin-right: 33px;
+}
+.inputLabel{
+    margin-bottom: 1rem;
+}
+@media screen and (min-width: 680px){
+    legend{
+
+        font-size: 2.75em;    }
+    fieldset{
+        width: 40%;
+        min-width: 320px;
+        margin: auto;
+    }
+    
+    
+    /* .checks label{
+        display: inline;
+        padding-top: .5em;
+        margin-top: 0;
+        margin-right: .5em;
+    } */
+    
+}
+@media screen and (max-width: 680px){
+.label{
+    display: block;
+}
+}

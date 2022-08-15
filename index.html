@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Greeter JS</title>
+</head>
+<body>
+  <section id="greeter"> 
+  
+       <fieldset>
+        <legend>Greeter JS</legend>
+        <div class="inputLabel">
+          <label for="fname" class="label" id="labelFname">Bitte geben Sie Ihr Name ein:</label>
+          <input type="text" id="fname" name="fname" value="" placeholder="Name"><br>
+        </div>
+        <div class="inputLabel">
+          <label for="lname" class="label">Bitte geben Sie Ihr Nachname ein:</label>
+          <input type="text" id="lname" name="lname" value="" placeholder="Nachname"><br>
+        </div>
+       <div class="inputLabel">
+         <label for="age" class="label" id="age">Bitte geben Sie Ihr Alter ein:</label>
+         <span>
+           <button onclick="totalClick(1)" class="change"><i class="fa-solid fa-plus"></i></button>
+           <input id="totalClicks" value="0">
+           <button onclick="totalClick(-1)" class="change"><i class="fa-solid fa-minus"></i></button>
+         </span>
+         <span> 
+
+           <button onclick="totalClick(0)" id="reset">RESET</button><br>
+         </span>
+       </div>
+   
+        <!-- <input type="text" id="age" name="age" value="" placeholder="Alter"><br> -->
+        <div class="inputLabel">
+          <label for="option" class="label" id="select">Bitte geben Sie Ih Geschlecht</label>
+        
+          <select id="option" >
+              <option value="m">Mann</option>
+              <option value="w">Frau</option>
+              <option value="andere">andere</option>
+      
+           </select>
+        </div>
+        <br>
+        <input type="submit" value="Submit" id="submit" onclick="submit()">
+        <p type="text" id="myTextBox"></p>
+
+
+
+     </fieldset> 
+    
+    </section>
+    <script language="javascript" type="text/javascript" src="greeter.js"></script>
+
+</body>
+</html>
